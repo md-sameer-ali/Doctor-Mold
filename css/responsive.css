@@ -1,0 +1,1849 @@
+@media (max-width:1399px) {
+    .newsletter_signup {
+        min-height: 300px;
+    }
+
+    .why_usimg {
+        filter: drop-shadow(40px 0 0 var(--primary));
+    }
+
+    .home_banner_text h1 {
+        font-size: 40px;
+    }
+
+    .home_banner_text h2 {
+        font-size: 50px;
+    }
+
+    .home_banner_img_one {
+        max-width: 380px;
+        margin-left: auto;
+    }
+
+    .home_banner_img_two {
+        max-width: 280px;
+    }
+
+    .contact_info_item {
+        padding: 25px 20px;
+        margin-bottom: 20px;
+    }
+
+    .woocommerce ul.products:not(.elementor-grid),
+    .woocommerce-page ul.products:not(.elementor-grid) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .checkout.woocommerce-checkout,
+    .woocommerce-account .woocommerce-MyAccount-content {
+        padding: 40px;
+    }
+
+    /* NEW REDESIGN HOME PAGE CSS  */
+    .banner_details_area {
+        width: 65%;
+    }
+
+    .banner_new_wrapper::before {
+        width: 70%;
+    }
+
+    .banner_new_text_area h1 {
+        font-size: 40px;
+    }
+
+    .banner_new_text_area p {
+        font-size: 18px;
+    }
+
+    .compare_box_area :is(h2, h3, h4, h5, h6) {
+        font-size: 20px;
+    }
+
+    .compare_box_area:nth-child(2n+1) {
+        margin-right: 20px;
+        padding-right: 20px;
+    }
+
+    .compare_box_wrapper {
+        padding: 50px 20px;
+    }
+
+    .compare_box_area .all_btn {
+        margin-top: 20px;
+    }
+
+    .banner_video_area {
+        width: 40%;
+        height: 80%;
+    }
+
+    .doctors_tabs_menu li:not(:last-child) a img {
+        width: 256px;
+    }
+
+
+}
+
+@media (max-width:1199px) {
+
+    /* mobile menu start */
+    .mobile_top {
+        display: flex;
+    }
+
+    .main_nav {
+        position: fixed;
+        height: 100%;
+        background: var(--creambg);
+        left: -500px;
+        max-width: 350px;
+        width: 100%;
+        top: 0;
+        overflow-y: auto;
+        z-index: 9999;
+        box-shadow: 0 0 20px #00000054;
+        transition: all 300ms ease-in-out;
+    }
+
+    .responsiveOverlay {
+        position: fixed;
+        background: #0000006e;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 300ms ease-in-out;
+        -webkit-backdrop-filter: blur(4px);
+        backdrop-filter: blur(4px);
+    }
+
+    .responsiveOverlay_on {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .main_nav_open {
+        left: 0;
+    }
+
+    .main_nav>ul {
+        padding-top: 0;
+    }
+
+    .main_nav ul ul {
+        display: none;
+    }
+
+    .main_nav li {
+        display: block;
+        margin: 0;
+        flex: 0 0 100%;
+        border-bottom: 1px solid #858b672b;
+    }
+
+    .main_header_black .main_nav>ul>li>a {
+        color: #fff;
+    }
+
+    .main_nav>ul>li:last-child {
+        border-bottom: 1px solid #ffffff3a;
+    }
+
+    .main_nav li.menu-item-has-children>a {
+        padding-right: 40px;
+    }
+
+    .main_nav ul ul {
+        padding-left: 15px;
+    }
+
+    .main_nav li a {
+        padding: 14px;
+    }
+
+    .mean-expand {
+        display: block;
+        position: absolute;
+        right: 0;
+        height: 40px;
+        top: 0;
+        width: 40px;
+        background: #0075C488;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mean-expand svg {
+        width: 20sx;
+        height: 20px;
+        transition: all 300ms ease-in-out;
+    }
+
+    .mean-expand.mean-clicked svg {
+        transform: rotate(180deg);
+    }
+
+    .mob_menu_btn {
+        display: inline-flex;
+        width: 44px;
+        justify-content: center;
+        align-items: center;
+        height: 46px;
+        border-radius: 5px;
+        border: none;
+        margin-left: 12px;
+        background: transparent;
+        padding: 0;
+    }
+
+    .mob_menu_btn svg {
+        transform: rotate(90deg);
+        stroke: var(--primary-hover);
+        transition: all 300ms ease-in-out;
+    }
+
+    .mob_menu_btn:hover {
+        background: transparent;
+        width: 40px;
+    }
+
+    .mob_menu_btn:hover svg {
+        stroke: var(--primary-hover);
+    }
+
+    .proposal_btn {
+        margin-left: 0;
+    }
+
+    /* mobile menu end */
+
+    .home_banner_text h1 {
+        font-size: 35px;
+    }
+
+    .home_banner_text h2 {
+        font-size: 45px;
+    }
+
+    .home_banner_img_two {
+        max-width: 260px;
+    }
+
+    .inner_banner_text h1,
+    .shop_page_banner .woocommerce-products-header__title {
+        font-size: 55px;
+    }
+
+    .panel_title h2 {
+        font-size: 55px;
+    }
+
+    .about_mold_text h2,
+    .whyus_content h3,
+    .caseStudy_info h3 {
+        font-size: 35px;
+    }
+
+    .home_tab_breadcrumb {
+        font-size: 10px;
+    }
+
+
+    .featured_product_text h4 {
+        font-size: 16px;
+    }
+
+    .resource_item {
+        background: var(--primary);
+        padding: 20px;
+    }
+
+    .resoruce_text h3 {
+        font-size: 18px;
+    }
+
+    .whyus_content li {
+        padding-left: 45px;
+        font-size: 20px;
+    }
+
+    .why_usimg {
+        max-width: 400px;
+        filter: drop-shadow(30px 0 0 var(--primary));
+    }
+
+    .home_tab_box_img {
+        flex: 0 0 100%;
+        max-width: 450px;
+    }
+
+    .home_tab_breadcrumb {
+        font-size: 22px;
+        column-gap: 70px;
+    }
+
+    .home_tab_breadcrumb li:not(:last-child):after {
+        width: 20px;
+        height: 20px;
+        background-size: 24px;
+        right: -40px;
+        top: 4px;
+    }
+
+    .about_mold_text p,
+    .whyus_content p,
+    .home_tab_head p,
+    .three_grid_text p,
+    .about_option_item_text p,
+    .contact_banner_text p,
+    .woocommerce-tabs p,
+    .caseStudy_challenges p,
+    .caseStudy_process p,
+    .caseStudy_result p,
+    .caseStudy_challenges_lists li,
+    .caseStudy_details_content p {
+        font-size: 16px;
+    }
+
+    .about_mold {
+        padding: 120px 0 70px;
+    }
+
+    .about_mold_img {
+        margin-left: 0;
+    }
+
+    .about_mold_img {
+        height: 550px;
+    }
+
+    .about_mold:after {
+        height: 550px;
+    }
+
+    .home_tab_menu li a {
+        font-size: 16px;
+    }
+
+    .tabicon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .resources_panel_title span:after {
+        height: 26px;
+    }
+
+    .about_option_item h3 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    /*footer*/
+    .footer_menu li {
+        margin-bottom: 8px;
+    }
+
+    .footer_menu li a {
+        font-size: 14px;
+    }
+
+    .footer_menu {
+        column-gap: 20px;
+    }
+
+    /*footer*/
+
+    .blog_text {
+        padding: 20px;
+    }
+
+    .blog_item {
+        margin-bottom: 25px;
+    }
+
+    .footer_logo a {
+        max-width: 150px;
+    }
+
+    .footer_social {
+        column-gap: 10px;
+    }
+
+    .our_time_item {
+        height: 320px;
+    }
+
+    .our_team_big_item .out_team_content {
+        padding: 0 25px 25px;
+    }
+
+    .contact_banner {
+        padding: 70px 0 40px;
+    }
+
+    .contact_box {
+        padding: 50px;
+    }
+
+
+    .woocommerce ul.products,
+    .woocommerce-page ul.products {
+        column-gap: 25px;
+    }
+
+    .single_product_details .product_title {
+        font-size: 25px;
+    }
+
+    .checkout.woocommerce-checkout,
+    .woocommerce-account .woocommerce-MyAccount-content {
+        padding: 30px;
+    }
+
+    .woocommerce-Address h3,
+    .cart-collaterals h2 {
+        font-size: 18px;
+    }
+
+    .process_gallery {
+        grid-auto-rows: 200px;
+    }
+
+    .filter_heading {
+        font-size: 24px;
+    }
+
+    /* NEW HOME PAGES  */
+
+    .doctors_tabs_menu li:not(:last-child) a img {
+        width: 206px;
+        height: 310px;
+    }
+
+    .doctors_tabs_menu li:last-child a img {
+        width: 337px;
+        height: 202px;
+    }
+
+    .doctors_tabs_menu {
+        height: 520px;
+    }
+
+    .meet_our_team_wrapper::before {
+        height: 48%;
+    }
+
+    /* FOR HOME PAGE  */
+    .right_side_angle_img img {
+        width: 80%;
+        aspect-ratio: 3 / 2;
+        height: unset;
+    }
+
+    .right_side_angle_img {
+        filter: drop-shadow(40px 30px 0 var(--primary));
+        text-align: center;
+    }
+
+    .right_side_angle_wrapper {
+        margin-bottom: 80px;
+    }
+
+    .product_details_cards>.row {
+        row-gap: 40px;
+    }
+
+    .hr_green_bg_content_text :is(h2, h3, h4, h5, h6) {
+        font-size: 28px;
+    }
+
+    .hr_green_bg_content {
+        padding: 50px 55px 50px 35px;
+    }
+
+    .hr_green_bg_content_text :is(p, ul li) {
+        font-size: 18px;
+    }
+
+    .explore_the_connection_area>.row:nth-child(even) .hr_green_bg_content {
+        padding: 50px 35px 50px 65px;
+    }
+
+    .content_writing_area>h2 {
+        font-size: 30px;
+    }
+
+    /* FOR ME PAGE  */
+
+    .video_play_icon {
+        font-size: 50px;
+    }
+
+    .three_grid_img {
+        height: 320px;
+    }
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 991px) {
+    .inner_banner {
+        min-height: 400px;
+    }
+
+    .home_banner_img_two {
+        display: none;
+    }
+
+    .home_banner_text h1 {
+        font-size: 30px;
+    }
+
+    .whyus_content h3,
+    .caseStudy_info h3 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .whyus_content p {
+        margin-bottom: 25px;
+    }
+
+    .whyus_content li {
+        padding-left: 45px;
+    }
+
+    .whyus_content li img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .why_usimg {
+        max-width: 320px;
+        filter: drop-shadow(20px 0 0 var(--primary));
+    }
+
+    .home_tab_box_img {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .home_tab_box_text h4 {
+        font-size: 24px;
+    }
+
+    .about_mold_text p,
+    .blog_content p,
+    .blog_content li,
+    .whyus_content p,
+    .home_tab_head p,
+    .home_tab_box_text p,
+    .three_grid_text p,
+    .about_option_item_text p,
+    .our_team_title p,
+    .contact_banner_text p,
+    .woocommerce-tabs p,
+    .content_page p,
+    .faq_accordion_answer p,
+    .caseStudy_challenges p,
+    .caseStudy_process p,
+    .caseStudy_result p,
+    .caseStudy_challenges_lists li,
+    .caseStudy_details_content p {
+        font-size: 15px;
+    }
+
+    .about_mold {
+        padding: 90px 0 70px;
+    }
+
+    .home_tabs,
+    .resource_panel,
+    .three_grid,
+    .about_option,
+    .our_team,
+    .faq_list {
+        padding: 80px 0;
+    }
+
+    .about_mold_text h2 {
+        font-size: 30px;
+    }
+
+    .about_mold:after {
+        height: 70%;
+        width: 25%;
+        top: 50px;
+    }
+
+    .about_mold_img {
+        height: 380px;
+    }
+
+    .home_tab_box_grid,
+    .three_grid_box {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .home_tab_box, .three_grid_box {
+        margin-bottom: 30px;
+    }
+
+    .home_tab_box_text_img,
+    .three_grid_img {
+        flex: 0 0 100%;
+        max-width: 300px;
+        height: 280px;
+        margin-bottom: 0;
+    }
+
+    .home_tab_box_grid_text,
+    .three_grid_text {
+        flex: 1;
+        padding-left: 20px;
+    }
+
+    .three_grid_text {
+        flex: 1;
+    }
+
+
+    .blogdetails_banner_text h1 {
+        font-size: 34px;
+    }
+
+
+
+    .contact_info {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 25px;
+        margin-bottom: 30px;
+    }
+
+    .about_option_item h3 {
+        font-size: 25px;
+        margin-bottom: 8px;
+    }
+
+    .about_option:after {
+        height: 250px;
+    }
+
+    .our_team_big_item .out_team_content {
+        padding: 0 20px 20px;
+    }
+
+    .our_time_item {
+        margin-bottom: 23px;
+    }
+
+    .contact_banner {
+        padding: 60px 0 30px;
+    }
+
+    .contact_info {
+        column-gap: 20px;
+    }
+
+    .contact_info_item {
+        flex: 0 0 100%;
+        max-width: calc(50% - 10px)
+    }
+
+    .woocommerce ul.products:not(.elementor-grid),
+    .woocommerce-page ul.products:not(.elementor-grid) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .woocommerce-js table.shop_table thead th,
+    .woocommerce-page table.shop_table thead th {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .woocommerce-js table.shop_table td,
+    .woocommerce-page table.shop_table td {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .woocommerce-cart table.shop_table td.product-name a {
+        font-size: 14px;
+    }
+
+    .woocommerce-js table.shop_table .product-thumbnail img,
+    .woocommerce-page table.shop_table .product-thumbnail img {
+        width: 50px;
+    }
+
+    .woocommerce.woocommerce-checkout form #customer_details.col2-set,
+    .woocommerce-page.woocommerce-checkout form #customer_details.col2-set {
+        zoom: 1;
+        width: 100%;
+    }
+
+    .woocommerce.woocommerce-checkout form #order_review,
+    .woocommerce.woocommerce-checkout form #order_review_heading,
+    .woocommerce-page.woocommerce-checkout form #order_review,
+    .woocommerce-page.woocommerce-checkout form #order_review_heading {
+        zoom: 1;
+        width: 100%;
+    }
+
+    .woocommerce .woocommerce-MyAccount-content .col2-set .col-1,
+    .woocommerce-page .woocommerce-MyAccount-content .col2-set .col-1,
+    .woocommerce .woocommerce-MyAccount-content .col2-set .col-2,
+    .woocommerce-page .woocommerce-MyAccount-content .col2-set .col-2 {
+        width: 100%;
+    }
+
+    .woocommerce-column--billing-address {
+        margin-bottom: 15px !important;
+    }
+
+
+
+    .caseStudy_details_img {
+        max-width: 720px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 12px;
+    }
+
+    .caseStudy_details_content {
+        position: static;
+        max-width: 100%;
+        transform: translatey(-50px);
+        margin-bottom: -50px;
+    }
+
+    .filter_heading {
+        font-size: 22px;
+    }
+
+
+    /* NEW HOME REDESIGN CSS  */
+    .common_padding {
+        padding: 80px 0;
+    }
+
+    .banner_new_wrapper {
+        padding: 75px 0;
+    }
+
+    .banner_video_area {
+        width: 100%;
+        height: 400px;
+        position: relative;
+        top: 0;
+        right: 0;
+        transform: unset;
+    }
+
+    .compare_box_wrapper {
+        margin-bottom: 30px;
+    }
+
+    .banner_details_area {
+        width: 100%;
+    }
+
+    .banner_new_wrapper::before {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .resource_content_area {
+        padding: 40px 30px;
+    }
+
+    /* NEW HOME DESIGN CSS  */
+    .meet_our_team_wrapper::before {
+        width: 67%;
+        height: 49%;
+        top: 50px;
+    }
+
+
+    .meet_doctor_img {
+        max-width: 438px;
+        margin: 0 auto 50px;
+    }
+
+    .meet_our_team_wrapper {
+        padding: 80px 0;
+    }
+
+    .doctors_tabs_menu {
+        height: 440px;
+    }
+
+    .doctors_tabs_menu li:last-child {
+        bottom: 0;
+    }
+
+    .testimonial_wrapper {
+        padding: 80px 0;
+    }
+
+    .testimonial_all_content {
+        margin-bottom: 50px;
+    }
+
+    .why_usimg.why_usimg_left {
+        max-width: unset;
+        width: 70%;
+        height: 500px;
+        margin: 0 auto;
+    }
+
+    .alternative_heading h2 {
+        font-size: 28px;
+    }
+
+    /* FOR HOME PAGE  */
+
+    .for_home_banner_wrapper .home_banner_img_two {
+        display: block;
+        position: relative;
+        top: unset;
+        left: unset;
+        transform: unset;
+    }
+
+    .for_home_banner_wrapper .home_banner_img_one {
+        display: none;
+    }
+
+    .you_are_not_alone_wrapper .home_tab_mob_head {
+        display: flex;
+    }
+
+    .you_are_not_alone_wrapper .home_tab_menu {
+        display: none;
+    }
+
+    .you_are_not_alone_wrapper .home_tab_btn {
+        padding-bottom: 30px;
+    }
+
+    .is_this_you_area>.row {
+        row-gap: 20px;
+    }
+
+    .product_details_wrapper {
+        padding: 80px 0;
+    }
+
+    .hr_green_bg_content {
+        width: 90%;
+        margin: 0 auto;
+        min-height: auto;
+        margin-bottom: 80px;
+    }
+
+    .explore_the_connection_wrapper {
+        padding: 80px 0;
+    }
+
+    .explore_the_connection_area>.row {
+        margin-bottom: 80px;
+    }
+
+    .hr_green_bg_content_box::after {
+        width: 90%;
+        right: 0;
+    }
+
+    .explore_the_connection_area>.row:nth-child(even) .hr_green_bg_content_box::after {
+        width: 90%;
+        left: 0;
+    }
+
+    .where_box_area img {
+        aspect-ratio: 3 / 2;
+    }
+
+    :is(.where_in_the_world_area, .other_project_area)>.row {
+        row-gap: 40px;
+    }
+
+    .other_box_area img {
+        aspect-ratio: 3 / 2;
+    }
+
+    .where_in_the_world_wrapper {
+        padding: 80px 0 40px;
+    }
+
+    .other_project_wrapper {
+        padding: 40px 0 80px;
+    }
+
+    .multiple_step_area_main {
+        margin-bottom: 20px;
+    }
+
+    .alternative_heading {
+        margin-bottom: 40px;
+    }
+
+    /* FOR ME PAGE  */
+
+    .videoSwiper_btn svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .water_damage_profile_img {
+        width: 100%;
+        height: unset;
+        position: unset;
+        top: unset;
+        bottom: unset;
+        left: unset;
+    }
+    
+    .waterSwiper .swiper-slide{
+        height: unset;
+    }
+    .mold_water_damage_content_area{
+        height: 100%;
+    }
+    .water_damage_details_area{
+        height: unset;
+    }
+
+    .water_damage_profile_img img {
+        aspect-ratio: 2 / 1;
+        object-position: top;
+    }
+    .water_damage_details_area {
+        width: 100%;
+        padding: 30px 35px 15px 35px;
+        margin-left: unset;
+    }
+    .play_icon_area {
+        width: 60px;
+        height: 60px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 921px) {
+
+    .woocommerce-cart button.button,
+    .woocommerce-cart a.button {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .woocommerce-js .single_product_details div.product div.summary {
+        margin-top: 3rem;
+    }
+
+    .woocommerce table.shop_table_responsive tr td::before,
+    .woocommerce-page table.shop_table_responsive tr td::before {
+        font-family: var(--heptaslab);
+        font-weight: 600;
+        position: absolute;
+        left: 15px;
+        top: calc(50% - 9px);
+        color: var(--textcolor2);
+        font-size: 14px;
+    }
+
+    .woocommerce table.shop_table_responsive tr td,
+    .woocommerce-page table.shop_table_responsive tr td {
+        padding-left: 130px;
+        position: relative;
+        text-align: left !important;
+    }
+
+    .woocommerce table.shop_table_responsive tr td.product-thumbnail,
+    .woocommerce-page table.shop_table_responsive tr td.product-thumbnail {
+        padding-left: 15px;
+        text-align: left !important;
+    }
+
+    .woocommerce table.shop_table_responsive tr td.product-remove,
+    .woocommerce-page table.shop_table_responsive tr td.product-remove {
+        text-align: right !important;
+    }
+
+    .woocommerce-js table.shop_table td,
+    .woocommerce-page table.shop_table td {
+        border-top: 1px solid #f4f6fd;
+    }
+
+    .woocommerce-page table.shop_table tbody tr.woocommerce-cart-form__cart-item.cart_item {
+        border-top: 10px solid var(--creambg);
+    }
+
+
+}
+
+@media screen and (max-width: 767px) {
+    .inner_banner {
+        min-height: 350px;
+    }
+
+    .inner_banner_text h1,
+    .shop_page_banner .woocommerce-products-header__title {
+        font-size: 40px;
+    }
+
+    .panel_title h2 {
+        font-size: 40px;
+    }
+
+    .all_btn {
+        padding: 12px 20px;
+    }
+
+    .big_btn {
+        min-width: 150px;
+    }
+
+    .slide_btn_prev,
+    .slide_btn_next {
+        width: 46px;
+        height: 46px;
+    }
+
+    .home_banner_text h1 {
+        font-size: 25px;
+    }
+
+    .home_banner_text h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .home_banner_img {
+        margin-bottom: 30px;
+    }
+
+    .home_banner_img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+    }
+
+    .home_banner_img_one {
+        max-width: 100%;
+        padding-bottom: 70%;
+    }
+
+    .whyus_content h3,
+    .caseStudy_info h3,
+    .more_caseStudies h4 {
+        font-size: 22px;
+    }
+
+    .whyus_content li {
+        font-size: 16px;
+    }
+
+    .why_usimg {
+        margin-bottom: 25px;
+    }
+
+    .home_tab_box_text h4,
+    .three_grid_text h4 {
+        font-size: 20px;
+    }
+
+    .home_tab_box_text_img,
+    .three_grid_img {
+        height: 260px;
+        max-width: 250px;
+    }
+
+
+    .featured_product_img {
+        padding: 30px 15px;
+    }
+
+    .featured_product_img img {
+        height: 200px;
+    }
+
+    .featured_product_price span {
+        font-size: 16px;
+    }
+
+    span.sale_price {
+        font-size: 18px;
+    }
+
+    .featured_product_text h4 {
+        font-size: 15px;
+    }
+
+    .featured_product_title {
+        margin-bottom: 30px;
+    }
+
+    .resources_panel_title span:after {
+        bottom: 8px;
+        height: 23px;
+    }
+
+
+    .home_tab_breadcrumb {
+        font-size: 18px;
+        column-gap: 50px;
+    }
+
+    .home_tab_breadcrumb li:not(:last-child):after {
+        width: 20px;
+        height: 20px;
+        background-size: 24px;
+        right: -35px;
+        top: 2px;
+    }
+
+    .hermi_box a {
+        min-width: 140px;
+        padding: 14px 25px 10px;
+        font-size: 16px;
+    }
+
+    .hermi_box {
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+    .home_tab_bottom ul {
+        row-gap: 15px;
+    }
+
+    .home_tab_content {
+        padding-top: 60px;
+    }
+
+    .home_tab_btn {
+        column-gap: 25px;
+    }
+
+    .home_tab_menu {
+        display: none;
+    }
+
+    .home_tab_mob_head {
+        display: flex;
+    }
+
+    .home_tab_content {
+        padding: 40px 0;
+    }
+
+
+    .about_mold,
+    .blog_list,
+    .whyus_panel,
+    .home_tabs,
+    .resource_panel,
+    .three_grid,
+    .about_option,
+    .our_team,
+    .faq_list,
+    .caseStudy_details_banner {
+        padding: 60px 0;
+    }
+
+    .caseStudy_info {
+        padding-bottom: 60px;
+        padding-top: 0px;
+    }
+
+    .featured_product {
+        padding-bottom: 60px;
+    }
+
+    .single_product_details {
+        padding-top: 60px;
+    }
+
+
+    .about_mold_text p {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .about_mold:after {
+        display: none;
+    }
+
+    .about_mold_img {
+        margin: 0 auto 30px;
+        max-width: 240px;
+        height: 280px;
+    }
+
+    .about_mold_text h2 {
+        font-size: 25px;
+    }
+
+    .image_scoll {
+        height: 320px;
+    }
+
+
+    .newsletter_signup {
+        min-height: 250px;
+    }
+
+    .newsletter_signup h5 {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+
+
+    .blog_text p,
+    .whyus_content p,
+    .home_tab_head p,
+    .home_tab_box_text p,
+    .about_option_item_text p,
+    .our_team_title p,
+    .contact_banner_text p,
+    .woocommerce-tabs p,
+    .faq_accordion_answer p,
+    .caseStudy_challenges p,
+    .caseStudy_process p,
+    .caseStudy_result p,
+    .caseStudy_challenges_lists li,
+    .caseStudy_details_content p {
+        font-size: 14px;
+    }
+
+    .blog_text h3 {
+        font-size: 18px;
+    }
+
+    .blogdetails_banner {
+        min-height: 250px;
+    }
+
+    .blogdetails_banner_text h1 {
+        font-size: 25px;
+    }
+
+    .blogdetails_banner_text h6 {
+        font-size: 14px;
+    }
+
+    .blog_details_img {
+        margin-bottom: -40px;
+    }
+
+    .blog_details_img img {
+        aspect-ratio: 3 / 1.6;
+    }
+
+    .blogdetails {
+        padding-bottom: 60px;
+    }
+
+    .blog_content p,
+    .blog_content li,
+    .content_page p {
+        font-size: 14px;
+    }
+
+    .blog_content h2,
+    .content_page h2 {
+        font-size: 25px;
+        line-height: 1.4;
+    }
+
+    .featured_product::before {
+        height: 50px;
+    }
+
+    .about_option_item h3 {
+        font-size: 22px;
+    }
+
+    .about_option:after {
+        height: 200px;
+    }
+
+    .contact_box {
+        padding: 25px;
+    }
+
+    .contact_info_item {
+        padding: 15px;
+    }
+
+    .contact_info_item p,
+    .contact_info_item a {
+        font-size: 14px;
+    }
+
+    .woocommerce-js ul.products li.product .woocommerce-loop-product__link img,
+    .woocommerce-page ul.products li.product .woocommerce-loop-product__link img {
+        height: 220px;
+    }
+
+    .woocommerce-js ul.products li.product .woocommerce-loop-product__title,
+    .woocommerce-page ul.products li.product .woocommerce-loop-product__title {
+        font-size: 16px;
+    }
+
+    .woocommerce-js ul.products li.product .woocommerce-loop-product__link,
+    .woocommerce-page ul.products li.product .woocommerce-loop-product__link {
+        padding: 15px;
+    }
+
+    .woocommerce ul.products,
+    .woocommerce-page ul.products {
+        column-gap: 20px;
+    }
+
+    .shop_product_list {
+        padding-top: 0;
+    }
+
+    .caseStudy_challenges_lists {
+        row-gap: 15px;
+    }
+
+    .caseStudy_challenges_lists li {
+        max-width: 100%;
+        padding-left: 34px;
+    }
+
+    .caseStudy_challenges_lists li span i {
+        font-size: 19px;
+    }
+
+    .caseStudy_challenges_lists li span {
+        width: 20px;
+        height: 20px;
+    }
+
+    .process_list_item h5 {
+        font-size: 20px;
+    }
+
+    .process_list_item h5 span {
+        font-size: 24px;
+    }
+
+    .more_caseStudies li a {
+        font-size: 15px;
+    }
+
+    .process_gallery {
+        grid-auto-rows: 160px;
+    }
+
+    .filter_heading {
+        font-size: 20px;
+    }
+
+    /* NEW HOME REDESIGN CSS  */
+
+    .banner_new_text_area h1 {
+        font-size: 30px;
+    }
+
+    .banner_new_text_area p {
+        font-size: 16px;
+    }
+
+    .banner_new_wrapper {
+        padding: 50px 0;
+    }
+
+    .compare_box_wrapper {
+        padding: 30px 20px;
+        row-gap: 30px;
+    }
+
+    .compare_box_area {
+        width: 100%;
+    }
+
+    .compare_box_area:nth-child(2n+1) {
+        margin-right: 0;
+        padding-right: 0;
+        border: none;
+    }
+
+    .banner_video_area {
+        height: 300px;
+    }
+
+    
+
+    .common_padding {
+        padding: 60px 0;
+    }
+
+    .resource_content_area {
+        padding: 30px 20px;
+    }
+
+    .resource_content p {
+        font-size: 16px;
+    }
+
+    .resource_content_wrapper .home_tab_btn {
+        flex-wrap: wrap;
+        row-gap: 25px;
+    }
+
+    .meet_doctor_img {
+        max-width: 320px;
+        margin-bottom: 30px;
+    }
+
+    .doctors_tabs_menu {
+        height: 350px;
+    }
+
+    .doctors_tabs_menu li:not(:last-child) a img {
+        width: 156px;
+        height: 230px;
+    }
+
+    .doctors_tabs_menu li:last-child a img {
+        width: 244px;
+        height: 172px;
+    }
+
+    .meet_our_team_wrapper::before {
+        width: 63%;
+        height: 43%;
+    }
+
+    .testimonial_wrapper {
+        padding: 50px 0;
+    }
+
+    .quote_img_area {
+        width: 40px;
+        height: 35px;
+        margin-bottom: 15px;
+    }
+
+    .testimonial_content_area>p {
+        font-size: 16px;
+    }
+
+    .testimonial_person_name span {
+        font-size: 18px;
+    }
+
+    .testimonial_content_area {
+        padding-bottom: 100px;
+    }
+
+    .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal.testimonial_pagination {
+        width: 100%;
+    }
+
+    .testimonial_person_name {
+        bottom: 60px;
+    }
+
+    .why_usimg.why_usimg_left {
+        height: 400px;
+        filter: drop-shadow(-25px 30px 0 var(--primary));
+    }
+
+    .faq_tabs_menu li a {
+        font-size: 14px;
+        padding: 15px 5px;
+    }
+
+    .main_footer .container {
+        padding-top: 50px;
+    }
+
+    .alternative_heading h2 {
+        font-size: 26px;
+    }
+
+    /* FOR HOME PAGE  */
+    /* All paddding  */
+    .product_details_wrapper,
+    .explore_the_connection_wrapper {
+        padding: 60px 0;
+    }
+
+    .for_home_banner_wrapper .home_banner_img_two {
+        display: none;
+    }
+
+    .for_home_banner_wrapper .home_banner_img_two img {
+        position: unset;
+    }
+
+    .right_side_angle_img {
+        filter: drop-shadow(30px 20px 0 var(--primary));
+    }
+
+    .right_side_angle_img img {
+        aspect-ratio: 3/4;
+    }
+
+    /* CONTENT WRITING AREA  */
+
+    .content_writing_area>h2 {
+        font-size: 26px;
+    }
+
+    .content_writing_area ul li {
+        font-size: 16px;
+    }
+
+    .content_writing_area>p {
+        font-size: 16px;
+    }
+
+    .content_writing_area :is(h3, h4) {
+        font-size: 22px;
+    }
+
+    .content_writing_area ul {
+        margin-bottom: 30px;
+    }
+
+    /* CONTENT WRITING AREA  END */
+    .hr_box_content_area {
+        padding: 35px 30px;
+    }
+
+    .product_details_cards>.row {
+        row-gap: 20px;
+    }
+
+    .hr_green_bg_content_text :is(h2, h3, h4, h5, h6) {
+        font-size: 22px;
+    }
+
+    .hr_box_content_area :is(h2, h3, h4, h5, h6) {
+        font-size: 20px;
+    }
+
+    .hr_green_bg_content_text :is(p, ul li) {
+        font-size: 16px;
+    }
+
+    .explore_the_connection_area>.row {
+        margin-bottom: 50px;
+    }
+
+    .step_showing_wrapper .content_writing_area {
+        margin-bottom: 50px;
+    }
+
+    .stepline::after {
+        height: calc(100% - 70px);
+        top: 50px;
+    }
+
+    .step_image_area {
+        margin-top: 0;
+        padding-right: 30px;
+        min-height: 260px;
+    }
+    .step_image_area img {
+        max-height: 190px;
+    }
+
+    .step_text_area {
+        padding-bottom: 20px;
+        padding-left: 30px;
+    }
+
+    .step_text_area :is(h2, h3, h4, h5, h6) {
+        font-size: 16px;
+    }
+
+    .step_text_area p {
+        font-size: 14px;
+    }
+
+    .step_text_area::before {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+        left: -26px;
+    }
+
+    .multiple_step_area_main>.row:nth-child(even) .step_text_area::before {
+        left: unset;
+        right: -26px;
+    }
+
+    .multiple_step_area_main>.row:nth-child(even) .step_text_area {
+        padding-right: 30px;
+    }
+
+    .multiple_step_area_main>.row:nth-child(even) .step_image_area {
+        padding-left: 30px;
+    }
+
+    .where_box_area h3 {
+        font-size: 20px;
+    }
+
+    :is(.where_in_the_world_area, .other_project_area)>.row {
+        row-gap: 20px;
+    }
+    .doctors_tabs_menu li:nth-child(2) {
+        top: -10px;
+        right: 0;
+    }
+
+    /* FOR ME PAGE  */
+
+    .home_banner_text p {
+        font-size: 16px;
+    }
+    .who_info_wrapper {
+        padding: 60px 0;
+    }
+    .silent_area_button {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 25px;
+    }
+    .video_showcase_area{
+        transform: scale(1);
+    }    
+    .swiper-slide-next .video_showcase_area {
+        transform: scale(1);
+    }
+    .videoSwiper_btn {
+        width: 46px;
+        height: 46px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--light_creambg);
+        color: #9e8873;
+        border: 2px solid #858B67;
+        transition: all 300ms ease-in-out;
+        border-radius: 10px;
+        top: unset;
+        bottom: 0;
+    }
+    .videoSwiper::before , .videoSwiper::after{
+        display: none;
+    }
+    .videoSwiper_btn svg {
+        width: 25px;
+        height: 25px;
+    }
+    .videoSwiper_prev {
+        left: calc(50% - 56px);
+    }
+    .videoSwiper_next {
+        right: calc(50% - 56px);
+    }
+    .videoSwiper {
+        padding-bottom: 100px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 575px) {
+    .logo {
+        max-width: 150px;
+    }
+
+    .copyright_text p,
+    .more_caseStudies li a {
+        font-size: 14px;
+    }
+
+    .blog_details_img img {
+        aspect-ratio: 3 / 1.8;
+    }
+
+    .blog_content h2,
+    .content_page h2 {
+        font-size: 22px;
+    }
+
+    .detection_tab_content .home_tab_btn {
+        max-width: 250px;
+        margin: 0 auto;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .home_tab_box_text_img,
+    .three_grid_img {
+        height: 220px;
+        max-width: 210px;
+    }
+
+    .home_tab_box_text h4,
+    .three_grid_text h4 {
+        font-size: 18px;
+    }
+
+    .header_right {
+        column-gap: 20px;
+    }
+
+    .our_team_big_item .out_team_content {
+        padding: 0 15px 15px;
+    }
+
+    .our_time_item:after {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 70%);
+    }
+
+    .contact_box {
+        padding: 15px;
+    }
+
+    .contact_info_item {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    .woocommerce-js ul.products li.product .woocommerce-loop-product__title,
+    .woocommerce-page ul.products li.product .woocommerce-loop-product__title {
+        font-size: 15px;
+    }
+
+    .shop_page_banner,
+    .inner_small_banner {
+        min-height: 160px;
+    }
+
+    .checkout.woocommerce-checkout,
+    .woocommerce-account .woocommerce-MyAccount-content {
+        padding: 15px;
+    }
+
+
+    .caseStudy_details_content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .caseStudy_details_content h2 {
+        font-size: 20px;
+    }
+
+    .project_info li {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .team_mob_full {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .woocommerce-page ul.products:not(.elementor-grid),
+    .woocommerce.mobile-columns-2 ul.products:not(.elementor-grid),
+    .woocommerce-page.mobile-columns-2 ul.products:not(.elementor-grid) {
+        grid-template-columns: repeat(1, minmax(0, 1fr))
+    }
+
+    .single_product_details .product_title {
+        font-size: 22px;
+    }
+
+    .faq_accordion_question {
+        font-size: 16px;
+        padding: 15px 15px;
+        padding-right: 50px;
+    }
+
+    .faq_accordion_answer {
+        padding: 15px;
+    }
+
+    .process_gallery {
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 200px;
+    }
+
+    .process_gallery a {
+        grid-column: 1 / span 1 !important;
+        grid-row: auto !important;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .footer_subform .tnp-subscription {
+        row-gap: 15px;
+    }
+
+    .footer_subform .tnp-subscription .tnp-field-email {
+        flex: 0 0 100%;
+    }
+
+    .footer_subform .tnp-field-email input[type=email] {
+        border-right-width: 2px;
+        text-align: center;
+    }
+
+    .footer_subform .tnp-subscription .tnp-field-button {
+        flex: 0 0 100%;
+    }
+
+    .footer_subform .tnp-field-button input[type=submit] {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .home_tab_box_text_img,
+    .three_grid_img {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .home_tab_box_grid_text,
+    .three_grid_text {
+        padding-left: 0;
+    }
+
+    .why_usimg {
+        max-width: 275px;
+    }
+
+    .woocommerce ul.products:not(.elementor-grid),
+    .woocommerce-page ul.products:not(.elementor-grid) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .filter_heading {
+        font-size: 18px;
+    }
+}
