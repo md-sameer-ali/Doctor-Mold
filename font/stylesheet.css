@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Pristina';
+    src: url('Pristina-Regular.woff2') format('woff2'),
+        url('Pristina-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
